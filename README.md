@@ -1,5 +1,17 @@
 # yuhanbo-wechat-public
 
+Preview Markdown in a WeChat article layout. The desktop plugin supports customizable typography, themes, tables, and Mermaid previews.
+
+## Installation
+
+Download `main.js`, `manifest.json`, and `styles.css` from the same [GitHub Release](https://github.com/yuhanbo758/obsidian-yuhanbo-wechat-public/releases/latest). Place all three files in the vault's plugin directory under `plugins/yuhanbo-wechat-public/` and enable the plugin in **Settings → Community plugins**.
+
+## Usage
+
+Open the WeChat Markdown editor from the ribbon or command palette. Use **Refresh** to load the active note when automatic sync is off. Preview and **Standard copy** are free. **WeChat copy** and **Table image copy** use an optional license from the author. Enter the license code under the plugin's **Copy authorization** setting to activate it.
+
+Rendering and license verification run locally. Copy actions write to the system clipboard. Remote images referenced in a note load from their original URLs. The plugin does not collect telemetry.
+
 将 Markdown 预览为微信文章排版，支持主题、字体、Mermaid 图表和表格图片复制。
 
 ## 功能与授权
