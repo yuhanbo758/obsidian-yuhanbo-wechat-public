@@ -1,9 +1,9 @@
 {
 	"id": "yuhanbo-wechat-public",
 	"name": "yuhanbo-wechat-public",
-	"version": "1.1.2",
+	"version": "1.1.3",
 	"minAppVersion": "0.15.0",
-	"description": "预览 Markdown 并复制为微信公众号排版，支持自定义主题与表格图片复制.",
+	"description": "Preview Markdown, copy WeChat-ready rich text, and turn tables into images.",
 	"author": "余汉波",
 	"authorUrl": "https://github.com/yuhanbo758",
 	"isDesktopOnly": true
