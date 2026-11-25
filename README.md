@@ -8,9 +8,9 @@ Download `main.js`, `manifest.json`, and `styles.css` from the same [GitHub Rele
 
 ## Usage
 
-Open the WeChat Markdown editor from the ribbon or command palette. Use **Refresh** to load the active note when automatic sync is off. Preview and **Standard copy** are free. **WeChat copy** and **Table image copy** use an optional license from the author. Enter the license code under the plugin's **Copy authorization** setting to activate it.
+Open the WeChat Markdown editor from the ribbon or command palette. Use **Refresh** to load the active note when automatic sync is off. Preview and **Standard copy** are free. To enable **WeChat copy** and **Table image copy**, open the purchase link in **Copy authorization** or go to the [Program Shop product page](https://shop.sanrenjz.com/obsidian/obsidian%E6%8F%92%E4%BB%B6-yuhanbo-wechat-public). Paste the license code you receive into the plugin settings and select **Activate**.
 
-Rendering and license verification run locally. Copy actions write to the system clipboard. Remote images referenced in a note load from their original URLs. The plugin does not collect telemetry.
+Rendering and license verification run locally. Copy actions write to the system clipboard. Remote images referenced in a note load from their original URLs. Selecting the purchase link opens the shop in the browser, where the shop handles payment and license delivery. The plugin does not collect telemetry.
 
 将 Markdown 预览为微信文章排版，支持主题、字体、Mermaid 图表和表格图片复制。
 
@@ -18,7 +18,7 @@ Rendering and license verification run locally. Copy actions write to the system
 
 - 免费：预览、普通复制、主题设置、路径复制。
 - 需授权：微信复制、图表复制。图表复制将文章中的文字表格转为 PNG，其他内容保持富文本。
-- 向作者获取授权码后，在插件设置“复制功能授权”中粘贴并激活。社区支付类型为 **Optional payment**，价格以作者实际公布为准。本插件不内置支付或自动发货。
+- 在插件设置「复制功能授权」中点击「前往程序小店购买授权码」。购买后将收到的授权码粘贴到设置中，再点「激活」。已有授权码可以直接激活。社区支付类型为 **Optional payment**，购买和发码由程序小店处理。
 - 授权码离线验签，不要求登录、不采集设备信息；授权保存在本库 `data.json`，请勿公开。当前不绑定设备、不支持远程撤销，授权码可被转发。本地代码可被修改，签名校验不保证防破解。
 
 ## 安装
